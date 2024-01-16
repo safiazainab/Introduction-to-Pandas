@@ -1,1 +1,7 @@
+# Import 
+import pandas as pd 
 
+# The below line is defining a function
+def createDataframe(student_data: List[List[int]]) -> pd.Dataframe:
+    column_names = ["Student_id", "age"]
+    result_dataframe = pd.dataFrame(student_id)
